@@ -1,0 +1,36 @@
+.loginbody{margin-top: 200px;width: 80%;margin-left: 10%;margin-right: 10%;}
+.loginInput{
+	margin-bottom: 20px;
+	height: 50px;
+	line-height: 50px;
+	width: 95%;
+	border: 1px solid #b4b4b4;
+	padding:0 2.5%;
+	border-radius:10px;
+	font-size: 20px;
+}
+.forgetPwd{float: right;margin-right:10%;color:#0080ff;font-size: 14px;}
+.loginBtn{margin-top: 60px;}
+
+/*公用*/
+.blueBtn{
+	border: 1px solid #5998ff;
+	background-color:#5998ff;
+	color:#fff;
+	border-radius:10px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 70%;
+	margin: 0 15%;
+}
+.infoItem{height: 40px;line-height: 40px;background-color: #fff;}
+.infoItem_tit{margin-left: 10px;}
+.infoItem_opt{float:right;margin-right: 10px;}
+.msgItem{height: 100px;background-color: #fff;}
+.msgItem_img{float: left;margin: 10px;width: 80px;height: 80px;border: 1px solid #d2d2d2;border-radius:10px;}
+.msgItem_cont{float: left;margin: 10px 10px 0 0;width: 65%;}
+.msgItem_title{font-size: 20px;font-weight: bold;line-height: 20px;}
+.msgItem_msg{margin-top:5px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;height: 60px;line-height:20px; font-size: 16px;}
+.mg_bt{margin-bottom: 10px;}
+.line{border-bottom: 1px solid #d2d2d2;}

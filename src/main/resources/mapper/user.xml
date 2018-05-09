@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nfky.IDao.IUserDao">
+
+	<!-- <resultMap type="StudentEntity" id="studentResultMap">
+		<id property="studentID" column="STUDENT_ID" />
+		<result property="studentName" column="STUDENT_NAME" />
+		<result property="studentSex" column="STUDENT_SEX" />
+		<result property="studentBirthday" column="STUDENT_BIRTHDAY" />
+	</resultMap> -->
+
+	<!-- 查询用户 -->
+	<select id="loadList" resultType="User"> 
+        <![CDATA[
+            SELECT * from users
+        ]]>
+	</select>
+</mapper> 
